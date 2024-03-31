@@ -1,0 +1,233 @@
+@media (max-width: 480px){
+    /*----- Navigation Section -----*/
+    .no-mobile{
+        display: none!important;
+    }
+
+    .navbar-collapse{
+        text-align: center;
+    }
+
+    .btn-icon .icon{
+        right: 60px;
+    }
+
+    .btn-icon i{
+        margin-top: 7px;
+        font-size: 20px;
+    }
+    
+    /*----- Banner Section -----*/
+    #banner{
+        padding-bottom: 50px;
+    }
+
+    .mobile-banner{
+        display: none;
+    }
+
+    .mobile-title{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+
+    .mobile-title h1{
+        font-size: 40px;
+    }
+
+    .mobile-title p{
+        font-size: 21px;
+    }
+
+    .icon{
+        font-size: 15px!important;
+    }
+
+    /*----- Service Section -----*/
+    #service{
+        padding-bottom: 50px;
+    }
+
+    .mobile-service{
+        margin-top: -60px;
+    }
+
+    .title{
+        font-size: 25px;
+    }
+
+    .icon-mobile{
+        margin-top: 75px;
+        margin-bottom: 35px;
+    }
+
+    .card-text{
+        font-size: 22px;
+    }
+
+    /*----- Menu Section -----*/
+    .container-menu{
+        overflow-x: auto;
+        overflow-y: hidden;
+        display: flex;
+        padding-bottom: 15px;
+    }
+
+    .btn-mobile{
+        padding: 12px 20px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-mobile i{
+        margin-right: 6px;
+    }
+
+    .img-produto{
+        width: 80px;
+        position: absolute;
+        left: 15px;
+    }
+
+    .card-item{
+        display: flex;
+        height: 110px;
+        padding-left: 110px;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .title-produto{
+        font-size: 20px;
+        margin-top: 0px!important;
+        height: 30px!important;
+        width: 100%;
+        text-align: left!important;
+    }
+
+    .price-produto{
+        margin-bottom: 0px!important;
+        margin-top: 0px;
+        font-size: 22px;
+    }
+
+    .card-item .add-carrinho{
+        margin-top: 5px;
+    }
+
+    #itensCardapio .mb-5{
+        margin-bottom: 15px!important;
+    }
+
+    /*----- Testimonial Section -----*/
+    .testimonial-mobile{
+        display: none;
+    }
+
+    #testimonials .hint-title{
+        margin-left: 5px;
+        font-size: 14px;
+    }
+
+    #testimonials .title{
+        margin-left: 5px;
+        font-size: 30px;
+    }
+
+    .testimonial{
+        margin-left: 5px;
+        font-size: 25px;
+    }
+
+    .name-testimonial{
+        font-size: 25px;
+    }
+
+    .nota-testimonial{
+        font-size: 15px;
+    }
+
+    .text-testimonial{
+        font-size: 18px;
+    }
+
+    #testimonials .btn-white{
+        font-size: 14px;
+    }
+
+    /*----- Reserve Mobile -----*/
+    .mobile-reserve{
+        display: none;
+    }
+
+    .card-secondary{
+        padding: 45px;
+        border-radius: 50px;
+    }
+
+    #reserve .hint-title{
+        font-size: 13px;
+    }
+
+    #reserve h1{
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    #reserve p{
+        font-size: 20px;
+    }
+
+    /*----- Footer Section -----*/
+
+    .container-logo-footer{
+        justify-content: center;
+    }
+
+    .container-texto-footer p{
+        text-align: center;
+    }
+
+    .container-redes-footer{
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .modal-full{
+        padding: 40px;
+    }
+
+    .modal-full .item-carrinho{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .modal-full .img-produto{
+        position: relative;
+        left: 0;
+    }
+
+    .modal-full .img-produto img{
+        width: 50px;
+    }
+
+    .modal-full .dados-produto{
+        padding-left: 15px;
+        padding-right: 15px;
+        display: grid;
+    }
+
+    .modal-full .title-produto{
+        font-size: 16px!important;
+    }
+
+    .modal-full .price-produto{
+        font-size: 16px!important;
+    }
+
+    .modal-full .add-numero-items{
+        padding: 2px 10px;
+    }
+
+}
